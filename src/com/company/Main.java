@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        System.out.println("hola mundo");
+	Empleado empleado = new Empleado (10, 2500.50);
+            empleado.informarBono();
     }
 }
