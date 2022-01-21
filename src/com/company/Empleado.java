@@ -1,9 +1,9 @@
 package com.company;
 
 public class Empleado {
-    private final Bono bono;
-    private Integer antiguedad;
-    private double sueldo;
+    public final Bono bono;
+    public Integer antiguedad;
+    public double sueldo;
 
     public Empleado(int antiguedad, double sueldo) {
         this.antiguedad = antiguedad;
